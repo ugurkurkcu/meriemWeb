@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+img {
+  margin: 0;
+}
+
+.btn {
+  background-color: #ffffff;
+  /* transition: all 0.2s ease-out; */
+  font-family: sans-serif;
+}
+
+.btn:hover {
+  transition: all 0.2s ease-in-out;
+  scale: 1.05;
+  background-color: #9991d8;
+  color: #ffffff;
+  box-shadow: 0px 0px 2px #000000;
+}
+.btn:active {
+  scale: 1;
+}
+
+.appStoreButton {
+  position: absolute;
+  width: 30vw;
+  top: 36vw;
+  left: 3.7vw;
+  /* transition: all 0.2s ease-out; */
+}
+
+.appStoreButton:hover {
+  transition: all 0.2s ease-in-out;
+  scale: 1.05;
+}
+.appStoreButton:active {
+  scale: 1;
+}
+
+.footerTermsBtn {
+  font-family: sans-serif;
+  font-weight: 300;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.footerTermsBtn:hover {
+  text-decoration: underline;
+}
+
+.footerTermsBtn:active {
+  transition: all 0.1s ease-in-out;
+  scale: 0.97;
+}
+
+.containerWrapper {
+  height: 100%;
+  width: 100vw;
+  position: fixed;
+  background-color: #ffffff5e;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2vw;
+}
+
+.closeContainer {
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  font-family: monospace;
+  font-size: 2vw;
+  justify-self: end;
+  width: 100%;
+  padding-right: 5vw;
+}
+
+.closeContainer div {
+  background-color: #2e1a57;
+  padding: 0.7vw;
+  width: 4vw;
+  height: 4vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10vw;
+  box-shadow: 0 0 8px #000;
+}
+
+.closeContainer div:hover{
+  transition: all .2s ease-in-out;
+  scale: 1.05;
+  cursor: pointer;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #2e1a57;
+  color: white;
+  margin: 0;
+  padding: 40px;
+  height: 80vh;
+  overflow: scroll;
+  border-radius: 24px;
+  box-shadow: 0 0 8px #000;
+}
+.container h1,
+h2 {
+  color: #e0afff;
+}
+.container h1 {
+  font-size: 28px;
+  text-align: center;
+  font-weight: bold;
+}
+.container h2 {
+  font-size: 22px;
+  margin-top: 20px;
+}
+.container p,
+li {
+  line-height: 1.6;
+}
+.container ul {
+  padding-left: 20px;
+}
+.container .highlight {
+  font-weight: bold;
+}
+.container a {
+  color: #e0afff;
+  text-decoration: none;
+}
+.container a:hover {
+  text-decoration: underline;
+}
