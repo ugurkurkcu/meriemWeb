@@ -42,11 +42,11 @@ const Backgrounds = () => {
         <div onClick={() => setPoliciesIsOpen(true)} className="footerTermsBtn">
           Privacy Policies
         </div>
-        <div>|</div>
+        <div className="footerTermsBtn">|</div>
         <div onClick={() => setTermsIsOpen(true)} className="footerTermsBtn">
           Terms Of Use
         </div>
-        <div>|</div>
+        <div className="footerTermsBtn">|</div>
         <div onClick={() => setContactIsOpen(true)} className="footerTermsBtn">
           <a href="mailto:support@meriem.app">Contact</a>
         </div>
