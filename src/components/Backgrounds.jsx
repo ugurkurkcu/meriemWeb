@@ -20,11 +20,11 @@ const Backgrounds = () => {
     >
       <DownloadButton />
       <AppStoreButton />
-      <img style={{ width: "100%" }} src="src/assets/1.png" alt="meriem 1" />
-      <img style={{ width: "100%" }} src="src/assets/2.png" alt="meriem 2" />
-      <img style={{ width: "100%" }} src="src/assets/3.png" alt="meriem 3" />
-      <img style={{ width: "100%" }} src="src/assets/4.png" alt="meriem 4" />
-      <img style={{ width: "100%" }} src="src/assets/5.png" alt="meriem 5" />
+      <img style={{ width: "100%" }} src="assets/1.png" alt="meriem 1" />
+      <img style={{ width: "100%" }} src="assets/2.png" alt="meriem 2" />
+      <img style={{ width: "100%" }} src="assets/3.png" alt="meriem 3" />
+      <img style={{ width: "100%" }} src="assets/4.png" alt="meriem 4" />
+      <img style={{ width: "100%" }} src="assets/5.png" alt="meriem 5" />
       <DownloadButtonBottom />
       <div
         style={{

@@ -5,7 +5,7 @@ const AppStoreButton = () => {
     <a href="https://www.google.com" target="_blank" className="appStoreButton">
       <img
         style={{ width: "100%" }}
-        src="../src/assets/appStore.png"
+        src="assets/appStore.png"
         alt="appStore"
       />
     </a>
