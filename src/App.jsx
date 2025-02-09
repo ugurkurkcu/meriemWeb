@@ -1,20 +1,18 @@
 import React from "react";
-import Backgrounds from "./components/Backgrounds";
-import DownloadButton from "./components/DownloadButton";
-import AppStoreButton from "./components/AppStoreButton";
+import { BrowserRouter, Route, Routes } from "react-router";
+import Home from "./screens/Home";
+import PoliciesScreen from "./screens/PoliciesScreen";
+import TermsScreen from "./screens/TermsScreen";
 
 const App = () => {
   return (
-    <div
-      style={{
-        width: "100vw",
-        backgroundColor: "#0F141E",
-        height: "100vh",
-        overflowY: "scroll",
-      }}
-    >
-      <Backgrounds />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/privacy-policies" element={<PoliciesScreen />} />
+        <Route path="/terms-of-use" element={<TermsScreen />} />
+      </Routes>
+    </BrowserRouter>
   );
 };
 

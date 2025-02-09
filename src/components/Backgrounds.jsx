@@ -1,14 +1,12 @@
-import React, { useState } from "react";
+import React from "react";
 import DownloadButton from "./DownloadButton";
 import AppStoreButton from "./AppStoreButton";
 import DownloadButtonBottom from "./DownloadButtonBottom";
-import Policies from "./Policies";
-import Terms from "./Terms";
+
+import { useNavigate } from "react-router-dom";
 
 const Backgrounds = () => {
-  const [isTermsOpen, setTermsIsOpen] = useState(false);
-  const [isPoliciesOpen, setPoliciesIsOpen] = useState(false);
-  const [isContactOpen, setContactIsOpen] = useState(false);
+  const navigate = useNavigate();
   return (
     <div
       style={{
@@ -39,24 +37,24 @@ const Backgrounds = () => {
         }}
         className="footerTerms"
       >
-        <div onClick={() => setPoliciesIsOpen(true)} className="footerTermsBtn">
+        <div
+          onClick={() => navigate("/privacy-policies")}
+          className="footerTermsBtn"
+        >
           Privacy Policies
         </div>
         <div className="footerTermsBtn">|</div>
-        <div onClick={() => setTermsIsOpen(true)} className="footerTermsBtn">
+        <div
+          onClick={() => navigate("/terms-of-use")}
+          className="footerTermsBtn"
+        >
           Terms Of Use
         </div>
         <div className="footerTermsBtn">|</div>
-        <div onClick={() => setContactIsOpen(true)} className="footerTermsBtn">
+        <div className="footerTermsBtn">
           <a href="mailto:support@meriem.app">Contact</a>
         </div>
       </div>
-
-      <Terms isOpen={isTermsOpen} close={() => setTermsIsOpen(false)} />
-      <Policies
-        isOpen={isPoliciesOpen}
-        close={() => setPoliciesIsOpen(false)}
-      />
     </div>
   );
 };

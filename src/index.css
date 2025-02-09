@@ -6,7 +6,7 @@
 
 a {
   text-decoration: none;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 img {
   margin: 0;
@@ -99,8 +99,8 @@ img {
   box-shadow: 0 0 8px #000;
 }
 
-.closeContainer div:hover{
-  transition: all .2s ease-in-out;
+.closeContainer div:hover {
+  transition: all 0.2s ease-in-out;
   scale: 1.05;
   cursor: pointer;
 }
@@ -114,10 +114,8 @@ img {
   color: white;
   margin: 0;
   padding: 40px;
-  height: 80vh;
+  height: 100vh;
   overflow: scroll;
-  border-radius: 24px;
-  box-shadow: 0 0 8px #000;
 }
 .container h1,
 h2 {
