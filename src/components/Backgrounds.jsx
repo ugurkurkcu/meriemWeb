@@ -1,4 +1,3 @@
-import React from "react";
 import DownloadButton from "./DownloadButton";
 import AppStoreButton from "./AppStoreButton";
 import DownloadButtonBottom from "./DownloadButtonBottom";

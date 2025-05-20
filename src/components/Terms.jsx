@@ -1,5 +1,3 @@
-import React from "react";
-
 const Terms = ({ close, isOpen }) => {
   return (
     <div

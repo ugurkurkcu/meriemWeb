@@ -1,6 +1,3 @@
-import React from "react";
-import Policies from "../components/Policies";
-
 const PoliciesScreen = () => {
   return (
     <div

@@ -1,9 +1,7 @@
-import React from "react";
-
 const DownloadButton = () => {
   return (
     <a
-      href="https://www.google.com"
+      href="https://apps.apple.com/tr/app/meriem-dream-interpreter/id6741539954"
       target="_blank"
       className="btn"
       style={{

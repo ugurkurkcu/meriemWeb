@@ -1,5 +1,3 @@
-import React from "react";
-
 const Policies = ({ close, isOpen }) => {
   return (
     <div
